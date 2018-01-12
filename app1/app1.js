@@ -20,7 +20,7 @@ export function mount(props) {
 			/**
 			 * window.requestAnimationFrame() is necessary in order to have the transition on first bootstrap/mount,
 			 * otherwise the browser batches the addition of the 'mounting' class with the 'wrapper' class from bootstrap
-			 * above and the transition doens't actually happen. 
+			 * above and the transition doens't actually happen.
 			 **/
 			window.requestAnimationFrame(() => domEl.classList.add('application-mounting'))
       domEl.innerHTML = `App 1 is mounted! <a href=#/app2>Go to app2</a>`
