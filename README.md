@@ -1,5 +1,5 @@
 # singlespa-transitions
-A very simple POC for adding application transitions for single-spa apps.
+A very simple POC for adding application transitions for [single-spa](https://github.com/CanopyTax/single-spa) apps.
 
 ## Setup
 1. Git clone
